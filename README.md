@@ -30,13 +30,6 @@ This app allows you to scan postal labels using a camera (mobile/desktop) and au
 ## 🌍 Live App
 [Click here to open the app](https://6739852.github.io/text-scanner)
 
-## 🛠️ How to Update the App
-After making changes to the code, run:
-```bash
-npm run build
-npm run deploy
-
-
 ## 📁 Project Structure
 arduino
 Copy
@@ -48,7 +41,7 @@ public/
 README.md
 package.json
 vite.config.js
-...
+
 ## 👩‍💻 Author
 Built with love for internal office use ❤️
 Feel free to use, improve, and share!
