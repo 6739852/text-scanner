@@ -1,12 +1,54 @@
-# React + Vite
+# 📦 Contract Number Scanner - OCR Label Reader
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to this open-source project designed to help offices scan return-mail labels and extract **contract numbers** directly from camera images!
 
-Currently, two official plugins are available:
+## 🎯 Project Goal
+This app allows you to scan postal labels using a camera (mobile/desktop) and automatically detect a **7-digit contract number**, located next to the city name on the **third line** of the label.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Uses the back camera by default on mobile
+- Real-time image scanning with `Tesseract.js` (OCR)
+- Automatically detects 7-digit contract numbers
+- Stores extracted numbers in a visible list
+- Export all results to an Excel file
+- Clean, responsive UI using MUI (Material-UI)
 
-## Expanding the ESLint configuration
+## 🚀 How It Works
+1. Open the app in a browser with camera access
+2. Click the **📸 Scan** button
+3. The image is processed using OCR
+4. If a valid contract number is found – it's added to the list
+5. You can export the full list to an Excel file at any time
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Tech Stack
+- React + Vite
+- Tesseract.js (OCR engine)
+- Material-UI (for styling)
+- xlsx + FileSaver for exporting Excel files
+- GitHub Pages for free hosting
+
+## 🌍 Live App
+[Click here to open the app](https://6739852.github.io/text-scanner)
+
+## 🛠️ How to Update the App
+After making changes to the code, run:
+```bash
+npm run build
+npm run deploy
+
+##📁 Project Structure
+arduino
+Copy
+Edit
+src/
+├── ContractScanner.jsx // Main component
+├── assets/             // Additional resources
+public/
+README.md
+package.json
+vite.config.js
+...
+👩‍💻 Author
+Built with love for internal office use ❤️
+Feel free to use, improve, and share!
+
