@@ -34,3 +34,9 @@ This app allows you to scan postal labels using a camera (mobile/desktop) and au
 Built with love for internal office use ❤️
 Feel free to use, improve, and share!
 
+## 📄 Credits
+
+This project uses [Tesseract.js](https://github.com/naptha/tesseract.js), a pure JavaScript OCR library based on the open-source [Tesseract OCR Engine](https://github.com/tesseract-ocr/tesseract) maintained by Google.  
+Tesseract is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+
