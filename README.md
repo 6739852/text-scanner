@@ -36,7 +36,8 @@ After making changes to the code, run:
 npm run build
 npm run deploy
 
-##📁 Project Structure
+
+## 📁 Project Structure
 arduino
 Copy
 Edit
@@ -48,7 +49,7 @@ README.md
 package.json
 vite.config.js
 ...
-👩‍💻 Author
+## 👩‍💻 Author
 Built with love for internal office use ❤️
 Feel free to use, improve, and share!
 
